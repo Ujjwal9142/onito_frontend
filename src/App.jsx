@@ -4,7 +4,7 @@ import DataTableComponent from "./components/DataTable";
 
 function App() {
   return (
-    <div className="app">
+    <div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Form />} />
