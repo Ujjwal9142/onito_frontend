@@ -570,9 +570,7 @@ const Form = () => {
             }}
           >
             <button
-              onClick={() => {
-                reset();
-              }}
+              onClick={() => reset()}
               style={{
                 width: "100px",
                 height: "50px",
